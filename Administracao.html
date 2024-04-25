@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fábrica de Brinquedos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
@@ -25,21 +29,25 @@
             max-height: 70vh;
             overflow-y: auto;
         }
+
+        .body {
+            font-family: "Asap Condensed", sans-serif;
+        }
     </style>
 </head>
 
 <body>
-    <header class="bg-light p-3">
+    <header class="bg-primary-subtle p-3">
         <div class="d-flex gap-5 align-items-center">
             <img src="assets/img/Logo.png" alt="Logo Fábrica de Brinquedos" style="height: 7em;">
-            <h1 class="fw-bold fs-3">Fábrica de Brinquedos</h1>
+            <h1 class="fw-bold fs-3 text-primary" style="font-family: 'Lobster', sans-serif;">Fábrica de Brinquedos</h1>
         </div>
     </header>
 
     <div class="container-fluid">
         <div class="row">
-            <nav class="col-md-3 bg-light p-0">
-                <p class="fw-bold fs-4 text-center py-3">MENU PRINCIPAL</p>
+            <nav class="col-md-3 bg-primary-subtle p-0">
+                <p class="fw-bold fs-4 text-center py-3" style="font-family: 'Asap Condensed', sans-serif;">MENU PRINCIPAL</p>
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link" href="Catalogo.html">Catálogo de Brinquedos</a>
@@ -49,7 +57,7 @@
             </nav>
 
             <main class="col-md-9 main-content" style="height: 84vh;">
-                <h1 class="mb-4">Catálogo de Brinquedos - Administração</h1>
+                <h1 class="mb-4" style="font-family: 'Asap Condensed', sans-serif;">Catálogo de Brinquedos - Administração</h1>
                 <section class="produtos">
                     <div class="table-responsive">
                         <table class="table table-striped table-bordered">
